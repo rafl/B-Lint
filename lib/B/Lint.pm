@@ -1,6 +1,6 @@
 package B::Lint;
 
-our $VERSION = '1.10';    ## no critic
+our $VERSION = '1.11';    ## no critic
 
 =head1 NAME
 
@@ -182,6 +182,10 @@ This is only a very preliminary version.
 =head1 AUTHOR
 
 Malcolm Beattie, mbeattie@sable.ox.ac.uk.
+
+=head1 ACKNOWLEDGEMENTS
+
+Sebastien Aperghis-Tramoni - bug fixes
 
 =cut
 

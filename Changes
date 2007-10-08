@@ -4,3 +4,5 @@ Revision history for B-Lint
         First version that's separate from bleadperl
 1.10    2007-10-08
         Installs over core B::Lint.
+1.11    2007-10-08
+        Giving credit is important.
