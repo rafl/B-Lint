@@ -8,4 +8,11 @@ WriteMakefile(
     PREREQ_PM     => { 'Test::More' => 0, 'Module::Pluggable' => 0 },
     dist          => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'B-Lint-*' },
+
+    # B::Lint is a dual-life module. Must install over core.
+    INSTALLDIRS => 'perl',
+    PM          => {
+        'lib/B/Lint.pm'       => '$(INST_ARCHLIB)/B/Lint.pm',
+        'lib/B/Lint/Debug.pm' => '$(INST_ARCHLIB)/B/Lint/Debug.pm',
+    },
 );

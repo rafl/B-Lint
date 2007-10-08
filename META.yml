@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name:                B-Lint
-version:             1.09
+version:             1.10
 abstract:            Perl lint
 license:             ~
-generated_by:        ExtUtils::MakeMaker version 6.31
+generated_by:        ExtUtils::MakeMaker version 6.36
 distribution_type:   module
 requires:     
     Module::Pluggable:             0
