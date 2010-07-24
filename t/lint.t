@@ -11,6 +11,9 @@ BEGIN {
     require 'test.pl';
 }
 
+use strict;
+use warnings;
+
 plan tests => 29;
 
 # Runs a separate perl interpreter with the appropriate lint options
