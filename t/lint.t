@@ -99,7 +99,7 @@ RESULT
     'private-names (method)';
 
 runlint 'undefined-subs', 'foo()', <<'RESULT';
-Nonexistant subroutine 'foo' called at -e line 1
+Nonexistent subroutine 'foo' called at -e line 1
 RESULT
 
 runlint 'undefined-subs', 'foo();sub foo;', <<'RESULT';
