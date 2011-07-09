@@ -1,6 +1,7 @@
 Makefile*
 !Makefile.PL
 *blib
+MYMETA*
 B-Lint-*
 MANIFEST*
 !MANIFEST
