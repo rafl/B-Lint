@@ -1,5 +1,11 @@
 Revision history for B-Lint
 
+1.15    2013-01-23
+        Merge changes from perl core:
+        - Stop the indexer from processing private modules
+
+        Add warning that B::Lint will be removed from core, if used from core
+
 1.13    2011-07-09
         Merge changes from perl core:
          - Fix typos
