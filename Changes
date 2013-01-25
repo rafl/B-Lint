@@ -1,5 +1,8 @@
 Revision history for B-Lint
 
+1.16    2013-01-23
+        install to sitelib, not corelib on 5.12.0 and later
+
 1.15    2013-01-23
         Merge changes from perl core:
         - Stop the indexer from processing private modules
