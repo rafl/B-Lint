@@ -1,5 +1,8 @@
 Revision history for B-Lint
 
+1.17    2013-0126
+        make the use of "deprecate" conditional
+
 1.16    2013-01-23
         install to sitelib, not corelib on 5.12.0 and later
 
